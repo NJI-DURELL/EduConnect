@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { GraduationCap, Github, Twitter, Linkedin } from 'lucide-react';
+import { GraduationCap, Github, Linkedin } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -17,7 +17,7 @@ const Footer = () => {
             </p>
             <div style={styles.socials}>
               <a href="https://github.com/NJI-DURELL" target="_blank" rel="noreferrer" style={styles.social}><Github size={18} /></a>
-              <a href="https://linkedin.com/nji-durell" target="_blank" rel="noreferrer" style={styles.social}><Linkedin size={18} /></a>
+              <a href="https://linkedin.com/in/nji-durell" target="_blank" rel="noreferrer" style={styles.social}><Linkedin size={18} /></a>
             </div>
           </div>
 
