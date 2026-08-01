@@ -1,6 +1,6 @@
 # EduConnect
 
-A complete Learning Management System (LMS) built with **React**, **Node.js/Express**, and **MongoDB**.
+A complete Learning Management System built with **Nodejs/Express**, **React**, and **MongoDB**.
 
 ---
 
@@ -9,7 +9,7 @@ A complete Learning Management System (LMS) built with **React**, **Node.js/Expr
 ```
 EduConnect/
 ├── backend/          ← Express REST API (Node.js + MongoDB)
-└── frontend/         ← React SPA (Vite + TypeScript)
+└── frontend/         ← React (Vite + TypeScript)
 ```
 
 ---
