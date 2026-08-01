@@ -1,4 +1,4 @@
-# EduConnect — Full-Stack LMS
+# EduConnect
 
 A complete Learning Management System (LMS) built with **React**, **Node.js/Express**, and **MongoDB**.
 
