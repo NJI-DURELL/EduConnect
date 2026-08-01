@@ -4,7 +4,7 @@ A complete Learning Management System (LMS) built with **React**, **Node.js/Expr
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 EduConnect/
@@ -14,7 +14,7 @@ EduConnect/
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 ### Prerequisites
 - **Node.js** v18+ → https://nodejs.org
@@ -50,7 +50,7 @@ cd EduConnect/frontend
 # Install dependencies
 npm install
 
-# Start the Vite dev server (runs on port 5173)
+# Start the Vite dev server runs on port 5173
 npm run dev
 ```
 
@@ -62,7 +62,7 @@ http://localhost:5173
 
 ---
 
-## 🔑 API Endpoints
+##  API Endpoints
 
 ### Auth
 | Method | Endpoint | Auth | Description |
@@ -80,7 +80,7 @@ http://localhost:5173
 ### Courses
 | Method | Endpoint | Auth | Description |
 |--------|----------|------|-------------|
-| GET | `/api/courses` | ❌ | List all (search/filter) |
+| GET | `/api/courses` | ❌ | search/filter |
 | GET | `/api/courses/:id` | ❌ | Get single course |
 | GET | `/api/courses/my/courses` | ✅ | Get instructor's courses |
 | POST | `/api/courses` | ✅ | Create course |
@@ -97,7 +97,7 @@ http://localhost:5173
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Backend (4-Layer)
 ```
@@ -121,7 +121,7 @@ Pages → Components → API Layer (Axios) → Backend
 
 ---
 
-## 🔒 Security Features
+##  Security Features
 - Passwords hashed with **bcryptjs** (salt rounds: 12)
 - JWT expiry: 7 days
 - `select: false` on password field — never returned in queries
@@ -131,13 +131,13 @@ Pages → Components → API Layer (Axios) → Backend
 
 ---
 
-## 📁 Environment Variables (backend/.env)
+##  Environment Variables (backend/.env)
 
 | Variable | Default | Description |
 |----------|---------|-------------|
 | `PORT` | `5000` | Server port |
 | `MONGO_URI` | `mongodb://localhost:27017/educonnect` | MongoDB connection string |
-| `JWT_SECRET` | *(see .env)* | Change this in production! |
+| `JWT_SECRET` | *see in  .env* | Change this in production! |
 | `JWT_EXPIRES_IN` | `7d` | Token lifetime |
 | `NODE_ENV` | `development` | Environment |
 | `CLIENT_URL` | `http://localhost:5173` | CORS allowed origin |
