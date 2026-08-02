@@ -1,5 +1,12 @@
 # EduConnect
 
+## Name: NJI-DURELL
+## Matricule No.: LMUI250908
+## Github repo-link: **https://github.com/NJI-DURELL/EduConnect**
+## E-mail: **nji.durell@ictuniversity.edu.cm**
+## Course: **FULLSTACK DEVELOPMENT WITH JAVASCRIPT**
+
+
 A complete Learning Management System built with **Nodejs/Express**, **React**, and **MongoDB**.
 
 ---
